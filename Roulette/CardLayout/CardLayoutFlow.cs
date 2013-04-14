@@ -15,7 +15,7 @@ namespace Roulette
             _superView = superView;
             ItemSize = new SizeF(100.0f, 153.0f);
             SectionInset = new UIEdgeInsets(0, 60, 0, 60);
-            ScrollDirection = UICollectionViewScrollDirection.Horizontal;
+			ScrollDirection = UICollectionViewScrollDirection.Horizontal;
         }
 
         public override UICollectionViewLayoutAttributes[] LayoutAttributesForElementsInRect(RectangleF rect)
