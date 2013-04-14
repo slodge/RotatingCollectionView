@@ -49,6 +49,14 @@ namespace Roulette
             {
 				ImageViews.Add(new UIImageView(UIImage.FromFile("Images/" + i.ToString() + ".jpg")));
 			}
+
+			var maxSize = new SizeF(190,190);
+
+
+			foreach(var view in ImageViews)
+			{
+				view.Frame = new RectangleF(new PointF(0,0), maxSize);
+			}
         }
 
         public class CollectionSource : UICollectionViewSource
