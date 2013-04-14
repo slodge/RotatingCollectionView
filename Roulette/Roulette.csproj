@@ -80,7 +80,6 @@
     <Compile Include="CardLayout\CardLayoutFlow.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <None Include="app.config" />
     <None Include="Info.plist" />
     <Compile Include="CardLayout\Maths.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,19 +91,23 @@
     <BundleResource Include="Resources\Default-568h@2x.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\10.png" />
-    <Content Include="Images\11.png" />
-    <Content Include="Images\12.png" />
-    <Content Include="Images\13.png" />
-    <Content Include="Images\14.png" />
-    <Content Include="Images\2.png" />
-    <Content Include="Images\3.png" />
-    <Content Include="Images\4.png" />
-    <Content Include="Images\5.png" />
-    <Content Include="Images\6.png" />
-    <Content Include="Images\7.png" />
-    <Content Include="Images\8.png" />
-    <Content Include="Images\9.png" />
+    <Content Include="Images\10.jpg" />
+    <Content Include="Images\11.jpg" />
+    <Content Include="Images\12.jpg" />
+    <Content Include="Images\13.jpg" />
+    <Content Include="Images\14.jpg" />
+    <Content Include="Images\15.jpg" />
+    <Content Include="Images\16.jpg" />
+    <Content Include="Images\17.jpg" />
+	<Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.jpg" />
+    <Content Include="Images\6.jpg" />
+    <Content Include="Images\7.jpg" />
+    <Content Include="Images\8.jpg" />
+    <Content Include="Images\9.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
